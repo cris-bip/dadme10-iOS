@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C28484CD2A758D4000A8912D /* MVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28484CD2A758D4000A8912D /* PokemonDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28484D02A758D4000A8912D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28484D22A758D4000A8912D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C28484D72A758D4000A8912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		C28484CE2A758D4000A8912D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C28484CD2A758D4000A8912D /* MVCExample.app */,
+				C28484CD2A758D4000A8912D /* PokemonDetail.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C28484CC2A758D4000A8912D /* MVCExample */ = {
+		C28484CC2A758D4000A8912D /* PokemonDetail */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C28484E12A758D4300A8912D /* Build configuration list for PBXNativeTarget "MVCExample" */;
+			buildConfigurationList = C28484E12A758D4300A8912D /* Build configuration list for PBXNativeTarget "PokemonDetail" */;
 			buildPhases = (
 				C28484C92A758D4000A8912D /* Sources */,
 				C28484CA2A758D4000A8912D /* Frameworks */,
@@ -118,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = MVCExample;
+			name = PokemonDetail;
 			productName = MVCExample;
-			productReference = C28484CD2A758D4000A8912D /* MVCExample.app */;
+			productReference = C28484CD2A758D4000A8912D /* PokemonDetail.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C28484C82A758D4000A8912D /* Build configuration list for PBXProject "MVCExample" */;
+			buildConfigurationList = C28484C82A758D4000A8912D /* Build configuration list for PBXProject "PokemonDetail" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C28484CC2A758D4000A8912D /* MVCExample */,
+				C28484CC2A758D4000A8912D /* PokemonDetail */,
 			);
 		};
 /* End PBXProject section */
@@ -379,7 +379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C28484C82A758D4000A8912D /* Build configuration list for PBXProject "MVCExample" */ = {
+		C28484C82A758D4000A8912D /* Build configuration list for PBXProject "PokemonDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C28484DF2A758D4300A8912D /* Debug */,
@@ -388,7 +388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C28484E12A758D4300A8912D /* Build configuration list for PBXNativeTarget "MVCExample" */ = {
+		C28484E12A758D4300A8912D /* Build configuration list for PBXNativeTarget "PokemonDetail" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C28484E22A758D4300A8912D /* Debug */,
