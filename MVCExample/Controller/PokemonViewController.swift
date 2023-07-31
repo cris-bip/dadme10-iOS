@@ -16,16 +16,11 @@ class PokemonViewController: UIViewController{
         super.viewDidLoad()
         
         dataManager.fetch()
-        print(dataManager.countPokemons())
-        
-        var i = 0
-        while i < dataManager.countPokemons(){
-            print(dataManager.getPokemon(at: i))
-            i+=1
-        }
     }
     
-    
+    @IBAction func unwindToPokemonViewController(segue: UIStoryboardSegue) {
+        print("Return to pokemon view controller")
+    }
 
 }
 
